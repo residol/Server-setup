@@ -1,0 +1,46 @@
+{
+  "name": "Bellion Paper Server",
+  "description": "Egg per server Paper ottimizzato Bellion.",
+  "docker_images": {
+    "ghcr.io/pterodactyl/yolks:java_17": "Java 17 (Paper)"
+  },
+  "startup": "java -Xms{{SERVER_MEMORY}}M -Xmx{{SERVER_MEMORY}}M -jar {{SERVER_JARFILE}} nogui",
+  "environment": [
+    {
+      "name": "SERVER_MEMORY",
+      "description": "RAM in MB",
+      "default_value": "4096"
+    },
+    {
+      "name": "SERVER_JARFILE",
+      "description": "Nome file jar",
+      "default_value": "server.jar"
+    },
+    {
+      "name": "SERVER_PORT",
+      "description": "Porta del server",
+      "default_value": "25565"
+    },
+    {
+      "name": "RCON_PORT",
+      "description": "Porta RCON",
+      "default_value": "25575"
+    },
+    {
+      "name": "RCON_PASSWORD",
+      "description": "Password RCON",
+      "default_value": "bellionRconPass"
+    }
+  ],
+  "exposes": [
+    "25565/tcp",
+    "25575/tcp"
+  ],
+  "scripts": {
+    "installation": {
+      "script": "echo 'Installazione Paper completata.'",
+      "container": "ghcr.io/pterodactyl/yolks:java_17",
+      "entrypoint": "/bin/bash"
+    }
+  }
+}

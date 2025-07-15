@@ -1,0 +1,33 @@
+{
+  "name": "Bellion Network Complete",
+  "description": "Egg per il deployment automatico della network Bellion (multi-server).",
+  "docker_images": {
+    "ghcr.io/pterodactyl/yolks:java_17": "Java 17 (Network)"
+  },
+  "startup": "bash scripts/start-all.sh",
+  "environment": [
+    {
+      "name": "SERVER_MEMORY",
+      "description": "RAM in MB per ogni server",
+      "default_value": "4096"
+    }
+  ],
+  "exposes": [
+    "25565/tcp",
+    "25566/tcp",
+    "25567/tcp",
+    "25568/tcp",
+    "25569/tcp",
+    "25570/tcp",
+    "25571/tcp",
+    "25572/tcp",
+    "25577/tcp"
+  ],
+  "scripts": {
+    "installation": {
+      "script": "echo 'Installazione Bellion Network completata.'",
+      "container": "ghcr.io/pterodactyl/yolks:java_17",
+      "entrypoint": "/bin/bash"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bellion BungeeCord Proxy",
+  "description": "Egg per il proxy BungeeCord ottimizzato Bellion.",
+  "docker_images": {
+    "ghcr.io/pterodactyl/yolks:java_17": "Java 17 (BungeeCord)"
+  },
+  "startup": "java -Xms{{SERVER_MEMORY}}M -Xmx{{SERVER_MEMORY}}M -jar BungeeCord.jar",
+  "environment": [
+    {
+      "name": "SERVER_MEMORY",
+      "description": "RAM in MB",
+      "default_value": "1024"
+    },
+    {
+      "name": "SERVER_JARFILE",
+      "description": "Nome file jar",
+      "default_value": "BungeeCord.jar"
+    },
+    {
+      "name": "SERVER_PORT",
+      "description": "Porta del proxy",
+      "default_value": "25577"
+    }
+  ],
+  "exposes": [
+    "25577/tcp"
+  ],
+  "scripts": {
+    "installation": {
+      "script": "echo 'Installazione BungeeCord completata.'",
+      "container": "ghcr.io/pterodactyl/yolks:java_17",
+      "entrypoint": "/bin/bash"
+    }
+  }
+}
