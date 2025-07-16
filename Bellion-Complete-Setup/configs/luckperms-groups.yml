@@ -1,0 +1,95 @@
+groups:
+  guest:
+    permissions:
+      - essentials.spawn
+      - essentials.tpa
+      - essentials.msg
+      - essentials.home
+      - bellion.menu
+    inheritance: []
+    prefix: '&7[Guest] '
+  citizen:
+    permissions:
+      - essentials.warp
+      - bellion.shop
+    inheritance:
+      - guest
+    prefix: '&f[Citizen] '
+  knight:
+    permissions:
+      - essentials.kit.knight
+    inheritance:
+      - citizen
+    prefix: '&b[Knight] '
+  noble:
+    permissions:
+      - essentials.kit.noble
+    inheritance:
+      - knight
+    prefix: '&d[Noble] '
+  lord:
+    permissions:
+      - essentials.kit.lord
+    inheritance:
+      - noble
+    prefix: '&6[Lord] '
+  duke:
+    permissions:
+      - essentials.kit.duke
+    inheritance:
+      - lord
+    prefix: '&5[Duke] '
+  king:
+    permissions:
+      - essentials.kit.king
+    inheritance:
+      - duke
+    prefix: '&e[King] '
+  vip_knight:
+    permissions:
+      - bellion.vip
+    inheritance:
+      - knight
+    prefix: '&b[VIP Knight] '
+  vip_noble:
+    permissions:
+      - bellion.vip
+    inheritance:
+      - noble
+    prefix: '&d[VIP Noble] '
+  vip_lord:
+    permissions:
+      - bellion.vip
+    inheritance:
+      - lord
+    prefix: '&6[VIP Lord] '
+  helper:
+    permissions:
+      - bellion.staff.helper
+    inheritance:
+      - king
+    prefix: '&a[Helper] '
+  moderator:
+    permissions:
+      - bellion.staff.moderator
+    inheritance:
+      - helper
+    prefix: '&2[Mod] '
+  admin:
+    permissions:
+      - bellion.staff.admin
+    inheritance:
+      - moderator
+    prefix: '&c[Admin] '
+  developer:
+    permissions:
+      - bellion.staff.developer
+    inheritance:
+      - admin
+    prefix: '&9[Dev] '
+  owner:
+    permissions:
+      - '*'
+    inheritance:
+      - developer
+    prefix: '&4[Owner] '

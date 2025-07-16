@@ -1,0 +1,20 @@
+holograms:
+  - location: hub,0.5,80,0.5
+    lines:
+      - '&6&lBellion Global Leaderboard'
+      - '&e1. {top_player_1} &7- &f{top_score_1} pts'
+      - '&e2. {top_player_2} &7- &f{top_score_2} pts'
+      - '&e3. {top_player_3} &7- &f{top_score_3} pts'
+      - '&7Monthly Competition: &b{monthly_winner}'
+  - location: hub,2.5,80,0.5
+    lines:
+      - '&b&lBedWars Top'
+      - '&e1. {bw_top_1} &7- &f{bw_score_1} wins'
+      - '&e2. {bw_top_2} &7- &f{bw_score_2} wins'
+      - '&e3. {bw_top_3} &7- &f{bw_score_3} wins'
+  - location: hub,-2.5,80,0.5
+    lines:
+      - '&a&lKitPvP Top'
+      - '&e1. {kpvp_top_1} &7- &f{kpvp_score_1} kills'
+      - '&e2. {kpvp_top_2} &7- &f{kpvp_score_2} kills'
+      - '&e3. {kpvp_top_3} &7- &f{kpvp_score_3} kills'

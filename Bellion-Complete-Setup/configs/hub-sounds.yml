@@ -1,0 +1,16 @@
+ambient_sounds:
+  - location: hub,0.5,80,0.5
+    sound: BLOCK_NOTE_BLOCK_HARP
+    volume: 1.0
+    pitch: 0.8
+    interval: 120
+  - location: hub,2.5,80,0.5
+    sound: BLOCK_NOTE_BLOCK_BELL
+    volume: 1.0
+    pitch: 1.2
+    interval: 180
+  - location: hub,-2.5,80,0.5
+    sound: BLOCK_NOTE_BLOCK_FLUTE
+    volume: 1.0
+    pitch: 1.0
+    interval: 160

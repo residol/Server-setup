@@ -1,0 +1,41 @@
+npcs:
+  - id: 1
+    name: '&cBedWars'
+    skin: 'RedKnight'
+    location: hub,5,80,0
+    command: 'server bedwars'
+  - id: 2
+    name: '&bSkyWars'
+    skin: 'SkyMage'
+    location: hub,7,80,0
+    command: 'server skywars'
+  - id: 3
+    name: '&aKitPvP'
+    skin: 'GreenArcher'
+    location: hub,9,80,0
+    command: 'server kitpvp'
+  - id: 4
+    name: '&dBuildBattle'
+    skin: 'BuilderKing'
+    location: hub,11,80,0
+    command: 'server buildbattle'
+  - id: 5
+    name: '&6Arena 1v1'
+    skin: 'Duelist'
+    location: hub,13,80,0
+    command: 'server arena1v1'
+  - id: 6
+    name: '&2Vanilla'
+    skin: 'FarmerLord'
+    location: hub,15,80,0
+    command: 'server vanilla'
+  - id: 7
+    name: '&5PrisonSkyblock'
+    skin: 'PrisonerKing'
+    location: hub,17,80,0
+    command: 'server prisonskyblock'
+  - id: 8
+    name: '&eTorna all''Hub'
+    skin: 'CastleGuard'
+    location: hub,19,80,0
+    command: 'server hub'

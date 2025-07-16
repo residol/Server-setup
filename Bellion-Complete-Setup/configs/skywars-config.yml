@@ -1,0 +1,46 @@
+skywars:
+  maps:
+    - SkyCastle1
+    - SkyCastle2
+    - FloatingIsles
+    - Cloudspire
+    - Windfort
+    - Starhaven
+    - Moonspire
+    - Sunreach
+    - Frostcloud
+    - Emberisle
+    - Thunderpeak
+    - MistyIsle
+    - Dragoncloud
+    - RoyalSky
+    - ArcaneIsle
+    - CelestialKeep
+  kits:
+    knight:
+      items: [IRON_SWORD, SHIELD, APPLE*2]
+    archer:
+      items: [BOW, ARROW*12, WOODEN_SWORD]
+    mage:
+      items: [POTION, BOOK, STICK]
+    tank:
+      items: [IRON_CHESTPLATE, BREAD*2]
+  chest_refill:
+    enabled: true
+    interval: 120
+  death_messages:
+    - '&c{player} è stato spinto giù da {killer}!'
+    - '&e{player} è caduto nel vuoto!'
+    - '&b{player} è stato colpito da un fulmine!'
+  ranked:
+    enabled: true
+    season: 1
+  crates:
+    enabled: true
+    rewards:
+      - coins
+      - cosmetics
+      - kit
+  spectator:
+    enabled: true
+    fly: true

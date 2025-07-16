@@ -1,0 +1,67 @@
+menu_title: '&6&lBellion Castle Menu'
+size: 54
+items:
+  bedwars:
+    slot: 10
+    material: RED_BED
+    display_name: '&cBedWars'
+    lore:
+      - '&7Unisciti alla battaglia dei letti!'
+    commands:
+      - 'server bedwars'
+  skywars:
+    slot: 12
+    material: DIAMOND_SWORD
+    display_name: '&bSkyWars'
+    lore:
+      - '&7Combatti sulle isole volanti!'
+    commands:
+      - 'server skywars'
+  kitpvp:
+    slot: 14
+    material: IRON_SWORD
+    display_name: '&aKitPvP'
+    lore:
+      - '&7Arena PvP medievale!'
+    commands:
+      - 'server kitpvp'
+  buildbattle:
+    slot: 16
+    material: BRICKS
+    display_name: '&dBuildBattle'
+    lore:
+      - '&7Sfida di costruzione fantasy!'
+    commands:
+      - 'server buildbattle'
+  arena1v1:
+    slot: 28
+    material: GOLDEN_SWORD
+    display_name: '&6Arena 1v1'
+    lore:
+      - '&7Duelli istantanei!'
+    commands:
+      - 'server arena1v1'
+  vanilla:
+    slot: 30
+    material: OAK_LOG
+    display_name: '&2Vanilla'
+    lore:
+      - '&7Survival puro!'
+    commands:
+      - 'server vanilla'
+  prisonskyblock:
+    slot: 32
+    material: EMERALD_BLOCK
+    display_name: '&5PrisonSkyblock'
+    lore:
+      - '&7Modalità ibrida unica!'
+    commands:
+      - 'server prisonskyblock'
+  hub:
+    slot: 40
+    material: NETHER_STAR
+    display_name: '&eTorna all''Hub'
+    lore:
+      - '&7Castello centrale'
+    commands:
+      - 'server hub'

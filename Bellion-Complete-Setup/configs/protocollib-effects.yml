@@ -1,0 +1,41 @@
+effects:
+  hub_spawn:
+    type: SPELL_WITCH
+    location: hub,0.5,80,0.5
+    interval: 20
+  portal_bedwars:
+    type: FLAME
+    location: hub,5,80,0
+    interval: 10
+  portal_skywars:
+    type: CLOUD
+    location: hub,7,80,0
+    interval: 10
+  portal_kitpvp:
+    type: CRIT
+    location: hub,9,80,0
+    interval: 10
+  portal_buildbattle:
+    type: VILLAGER_HAPPY
+    location: hub,11,80,0
+    interval: 10
+  portal_arena1v1:
+    type: REDSTONE
+    location: hub,13,80,0
+    interval: 10
+  portal_vanilla:
+    type: TOTEM
+    location: hub,15,80,0
+    interval: 10
+  portal_prisonskyblock:
+    type: ENCHANTMENT_TABLE
+    location: hub,17,80,0
+    interval: 10
+  cosmetics_trail_knight:
+    type: SPELL_MOB
+    color: 0,0,255
+    interval: 5
+  cosmetics_trail_lord:
+    type: SPELL_MOB
+    color: 255,215,0
+    interval: 5

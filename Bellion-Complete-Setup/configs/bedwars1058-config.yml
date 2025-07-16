@@ -1,0 +1,58 @@
+bedwars:
+  maps:
+    - MedievalCastle1
+    - MedievalCastle2
+    - FortressRuins
+    - DragonKeep
+    - RoyalIsles
+    - MysticValley
+    - Ironforge
+    - Emberhold
+    - Frostspire
+    - Shadowmoor
+    - Sunblade
+    - Oakridge
+    - Stormwatch
+    - Dawnspire
+    - Blackstone
+    - Silverkeep
+    - Goldhaven
+    - Wolfden
+    - Lionheart
+    - Kingsrest
+    - Queensgate
+  kits:
+    warrior:
+      items: [IRON_SWORD, SHIELD, BREAD*3]
+    archer:
+      items: [BOW, ARROW*16, WOODEN_SWORD]
+    builder:
+      items: [STONE_PICKAXE, WOOL*32]
+    berserker:
+      items: [STONE_AXE, APPLE*2]
+  shop:
+    upgrades:
+      - sharpness
+      - protection
+      - haste
+      - heal_pool
+    economy:
+      iron: 1
+      gold: 10
+      emerald: 50
+  stats:
+    enabled: true
+    track: [kills, deaths, wins, games]
+  party:
+    enabled: true
+  spectator:
+    enabled: true
+    teleport: true
+  ranking:
+    enabled: true
+    type: elo
+  cosmetics:
+    win_effects:
+      - fireworks
+      - thunder
+      - confetti
