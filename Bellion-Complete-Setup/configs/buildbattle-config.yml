@@ -1,0 +1,44 @@
+buildbattle:
+  themes:
+    - Castello
+    - Drago
+    - Ponte levatoio
+    - Torre
+    - Villaggio
+    - Re
+    - Regina
+    - Cavaliere
+    - Mago
+    - Carrozza
+    - Statua
+    - Biblioteca
+    - Prigione
+    - Portale
+    - Trono
+    - Arena
+    - Forgia
+    - Mulino
+    - Nave
+    - Bosco
+  voting:
+    enabled: true
+    scale: 1-10
+    gui: true
+  time:
+    options: [5, 10, 15]
+    default: 10
+  plot_reset:
+    enabled: true
+  winner_holo:
+    enabled: true
+  tools:
+    worldedit: true
+  categories:
+    - Medieval
+    - Fantasy
+    - Castle
+    - Kingdom
+  rewards:
+    1: crate
+    2: coins
+    3: cosmetic

@@ -1,0 +1,54 @@
+kitpvp:
+  arena: MedievalArena
+  kits:
+    knight:
+      items: [IRON_SWORD, SHIELD, APPLE*2]
+    archer:
+      items: [BOW, ARROW*16, WOODEN_SWORD]
+    assassin:
+      items: [STONE_SWORD, SPEED_POTION, APPLE]
+    paladin:
+      items: [GOLDEN_SWORD, GOLDEN_APPLE, SHIELD]
+    berserker:
+      items: [STONE_AXE, APPLE*2]
+    tank:
+      items: [IRON_CHESTPLATE, BREAD*2]
+    mage:
+      items: [POTION, BOOK, STICK]
+    scout:
+      items: [LEATHER_BOOTS, SPEED_POTION]
+    healer:
+      items: [POTION, BREAD*3]
+    ranger:
+      items: [BOW, ARROW*24, WOODEN_SWORD]
+    brute:
+      items: [STONE_AXE, SHIELD]
+    rogue:
+      items: [WOODEN_SWORD, INVIS_POTION]
+    gladiator:
+      items: [IRON_SWORD, SHIELD, APPLE]
+    hunter:
+      items: [BOW, ARROW*12, APPLE]
+    warlock:
+      items: [POTION, STICK, BOOK]
+  killstreak:
+    enabled: true
+    rewards:
+      3: coins
+      5: kit
+      10: crate
+  bounty:
+    enabled: true
+  combatlog:
+    enabled: true
+  soup:
+    enabled: true
+  leaderboard:
+    enabled: true
+    type: kdr
+  shop:
+    enabled: true
+    upgrades:
+      - kit
+      - effect
+      - cosmetic

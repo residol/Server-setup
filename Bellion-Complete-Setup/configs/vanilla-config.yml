@@ -1,0 +1,19 @@
+vanilla:
+  worldgen: optimized
+  land_claim:
+    enabled: true
+    tool: STICK
+  commands:
+    - /home
+    - /spawn
+    - /tpa
+  economy:
+    enabled: true
+    trading: true
+  keep_inventory:
+    enabled: true
+    command: /keepinv
+  mob_spawning:
+    optimized: true
+  anti_grief:
+    enabled: true

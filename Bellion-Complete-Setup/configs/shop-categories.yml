@@ -1,0 +1,68 @@
+shop:
+  categories:
+    combat:
+      - name: Spada di Ferro
+        price: 100
+        currency: coins
+      - name: Armatura di Ferro
+        price: 250
+        currency: coins
+      - name: Pozione di Forza
+        price: 150
+        currency: coins
+    building:
+      - name: Blocchi Rari
+        price: 200
+        currency: coins
+      - name: Attrezzi
+        price: 120
+        currency: coins
+      - name: Decorazioni
+        price: 80
+        currency: coins
+    cosmetics:
+      - name: Trail Magico
+        price: 300
+        currency: gems
+      - name: Pet Drago
+        price: 500
+        currency: gems
+      - name: Cappello Corona
+        price: 250
+        currency: gems
+      - name: Ali Prestige
+        price: 1000
+        currency: gems
+    ranks:
+      - name: Knight
+        price: 1000
+        currency: coins
+      - name: Noble
+        price: 2500
+        currency: coins
+      - name: Lord
+        price: 5000
+        currency: coins
+      - name: VIP Knight
+        price: 10
+        currency: gems
+    crates:
+      - name: Common Crate
+        price: 1
+        currency: tokens
+      - name: Rare Crate
+        price: 3
+        currency: tokens
+      - name: Epic Crate
+        price: 5
+        currency: tokens
+      - name: Legendary Crate
+        price: 10
+        currency: tokens
+  sinks:
+    - name: Repair
+      price: 50
+      currency: coins
+    - name: Rename Item
+      price: 100
+      currency: coins

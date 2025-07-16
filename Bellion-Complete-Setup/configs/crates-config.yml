@@ -1,0 +1,33 @@
+crates:
+  common:
+    type: daily
+    rewards:
+      - coins: 100
+      - build_tokens: 1
+      - cosmetic: trail
+      - random_kit
+  rare:
+    type: weekly
+    rewards:
+      - coins: 300
+      - gems: 1
+      - cosmetic: pet
+      - random_kit
+  epic:
+    type: store
+    rewards:
+      - coins: 500
+      - gems: 3
+      - cosmetic: hat
+      - rank_upgrade
+  legendary:
+    type: event
+    rewards:
+      - coins: 1000
+      - gems: 5
+      - cosmetic: wings
+      - rank_upgrade
+      - special_effect
+  integration:
+    cross_server: true
+    broadcast_win: true

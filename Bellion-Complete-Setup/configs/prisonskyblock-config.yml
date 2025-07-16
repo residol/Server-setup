@@ -1,0 +1,47 @@
+prisonskyblock:
+  dual_progress:
+    enabled: true
+    system: mine_to_sky
+  mines:
+    ranks:
+      - A
+      - B
+      - C
+      - D
+      - E
+      - F
+      - G
+      - H
+      - I
+      - J
+      - K
+      - L
+      - M
+      - N
+      - O
+      - P
+      - Q
+      - R
+      - S
+      - T
+      - U
+      - V
+      - W
+      - X
+      - Y
+      - Z
+    difficulty: increasing
+  islands:
+    expansion: rank_based
+    prestige_wings: true
+    gang_islands: true
+  resource_bridge:
+    enabled: true
+    auto_convert: true
+  economy:
+    prison_coins: true
+    island_resources: true
+    bridge: true
+  prestige:
+    enabled: true
+    wings: true

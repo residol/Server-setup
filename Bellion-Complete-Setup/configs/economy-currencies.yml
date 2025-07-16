@@ -1,0 +1,24 @@
+economy:
+  currencies:
+    bellion_coins:
+      display: 'Bellion Coins'
+      symbol: '⛃'
+      cross_server: true
+      default: true
+    castle_gems:
+      display: 'Castle Gems'
+      symbol: '♦'
+      premium: true
+      cross_server: true
+    honor_points:
+      display: 'Honor Points'
+      symbol: '⚔'
+      pvp_only: true
+      cross_server: true
+    build_tokens:
+      display: 'Build Tokens'
+      symbol: '✦'
+      build_battle: true
+      cross_server: true
+  shop_integration: true
+  sync_interval: 10

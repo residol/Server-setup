@@ -1,0 +1,34 @@
+arena1v1:
+  arenas:
+    - DuelArena1
+    - DuelArena2
+    - BridgeArena
+    - CastleCourtyard
+    - DungeonPit
+    - ForestRing
+    - LavaChamber
+    - SkyRing
+    - WaterfallArena
+    - RoyalHall
+    - MysticCircle
+  instant_kill:
+    enabled: true
+    weapon: DIAMOND_SWORD
+  queue:
+    enabled: true
+    matchmaking: elo
+  betting:
+    enabled: true
+  elo:
+    enabled: true
+    start: 1000
+  tournament:
+    enabled: true
+    schedule: weekend
+  kits:
+    speed:
+      items: [SUGAR, LEATHER_BOOTS]
+    strength:
+      items: [BLAZE_POWDER, IRON_SWORD]
+  replay:
+    enabled: true
