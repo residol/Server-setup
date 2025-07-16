@@ -1,0 +1,7 @@
+name: BellionEconomyBridge
+main: it.bellion.economy.BellionEconomyBridge
+version: 1.0.0
+author: BellionDev
+api-version: 1.20
+depend: [Vault]
+description: Bellion Cross-Server Economy Bridge Plugin

@@ -1,0 +1,7 @@
+name: CosmeticsSystem
+main: it.bellion.cosmetics.CosmeticsSystem
+version: 1.0.0
+author: BellionDev
+api-version: 1.20
+depend: [ProtocolLib]
+description: Bellion Cosmetics System Plugin

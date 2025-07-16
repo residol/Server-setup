@@ -1,0 +1,7 @@
+name: Arena1v1Manager
+main: it.bellion.arena1v1.Arena1v1Manager
+version: 1.0.0
+author: BellionDev
+api-version: 1.20
+depend: [Vault]
+description: Bellion Arena 1v1 Manager Plugin

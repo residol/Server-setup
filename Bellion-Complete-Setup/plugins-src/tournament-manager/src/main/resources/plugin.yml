@@ -1,0 +1,6 @@
+name: TournamentManager
+main: it.bellion.tournament.TournamentManager
+version: 1.0.0
+author: BellionDev
+api-version: 1.20
+description: Bellion Tournament Manager Plugin
