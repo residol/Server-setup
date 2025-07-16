@@ -1,0 +1,16 @@
+mysql:
+  host: localhost
+  port: 3306
+  database: bellion
+  user: root
+  password: password
+instant_kill:
+  enabled: true
+queue:
+  enabled: true
+betting:
+  enabled: true
+tournament:
+  enabled: true
+elo:
+  enabled: true
