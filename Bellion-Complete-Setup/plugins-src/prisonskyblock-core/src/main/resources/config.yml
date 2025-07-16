@@ -1,0 +1,16 @@
+mysql:
+  host: localhost
+  port: 3306
+  database: bellion
+  user: root
+  password: password
+dual_progress:
+  enabled: true
+resource_bridge:
+  enabled: true
+island_management:
+  enabled: true
+mine_ranking:
+  enabled: true
+economy_bridge:
+  enabled: true
