@@ -1,0 +1,13 @@
+mysql:
+  host: localhost
+  port: 3306
+  database: bellion
+  user: root
+  password: password
+cross_server:
+  enabled: true
+currencies:
+  - bellion_coins
+  - castle_gems
+  - honor_points
+  - build_tokens
